@@ -17,11 +17,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'dashscope-result-wlcb.oss-cn-wulanchabu.aliyuncs.com',
-      },
-      {
-        protocol: 'https',
-        hostname: 'dashscope-result-sh.oss-cn-shanghai.aliyuncs.com',
+        hostname: '**.aliyuncs.com',
       },
       {
         protocol: 'https',
