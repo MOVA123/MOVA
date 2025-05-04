@@ -1,8 +1,17 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import * as nc from "next-connect";
+import { createRouter } from "next-connect";
 import request from "@/request/axios";
-const Authorization = "Bearer sk-0c86ae9b58c14a09abd472747a1e8c78";
-const router = nc.createRouter();
+
+const router = createRouter();
+
+const DASHSCOPE_API_KEY = process.env.DASHSCOPE_API_KEY || '';
+const Authorization = `Bearer ${DASHSCOPE_API_KEY}`;
+
+// 添加API Key验证
+if (!DASHSCOPE_API_KEY) {
+  console.error('DASHSCOPE_API_KEY is missing in environment variables');
+}
+
 router.post((async (req: NextApiRequest, res: NextApiResponse) => {
   const { model, input } = req.body;
   try {
