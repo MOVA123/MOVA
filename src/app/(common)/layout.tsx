@@ -23,118 +23,45 @@ export default function RootLayout({
                   Made with Mova Gen-3
                 </div>
               </div>
-              <div className="flex justify-between items-start">
-                <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-0 mb-52 flex-1">
-                  <div >
-                    <div className="text-[13px] mb-4 text-slate-400">Product</div>
+              <div className="flex items-start justify-between static z-10">
+                <div className="flex items-center">
+                  <a href="https://x.com/MOVAAI_" target="_blank">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="#94A3B8">
+                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                  </a>
+                </div>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-0 mb-6 justify-end">
+                  <div className="text-left pl-5">
+                    <div className="mb-4">Links</div>
                     <ul className="flex flex-col items-start">
-                      <li className="mb-1 hover:underline">
-                        Our Tools
+                      <li className="text-[15px] mb-2 text-slate-400 hover:underline">
+                      <a href="/studios">Studios</a>
                       </li>
-                      <li className="mb-1 hover:underline">
-                        API
-                      </li>
-                      <li className="mb-1 hover:underline">
-                        Gen-3
-                      </li>
-                      <li className="mb-1 hover:underline">
-                        Act-One
-                      </li>
-                      <li className="mb-1 hover:underline">
-                        Frames
-                      </li>
-
-                    </ul>
-                  </div>
-                  <div >
-                    <div className="text-[13px] mb-4 text-slate-400">Initiatives</div>
-                    <ul className="flex flex-col items-start">
-                      <li className="mb-1 hover:underline">
-                        Studios
-                      </li>
-                      <li className="mb-1 hover:underline">
-                        Creative Partners Program
-                      </li>
-                      <li className="mb-1 hover:underline">
-                        The Human Film Fund
-                      </li>
-
-                    </ul>
-                  </div>
-                  <div >
-                    <div className="text-[13px] mb-4 text-slate-400">Company</div>
-                    <ul className="flex flex-col items-start">
-                      <li className="mb-1 hover:underline">
-                        Our Research
-                      </li>
-                      <li className="mb-1 hover:underline">
-                        Careers
-                      </li>
-                      <li className="mb-1 hover:underline">
+                      <li className="text-[15px] mb-2 text-slate-400 hover:underline">
                         <a href="/about">About Us</a>
                       </li>
-                      <li className="mb-1 hover:underline">
-                        Customer Stories
-                      </li>
-                      <li className="mb-1 hover:underline">
-                        News
-                      </li>
-                      <li className="mb-1 hover:underline">
-                        Store
-                      </li>
-                      <li className="mb-1 hover:underline">
-                        Talent Network
-                      </li>
-
-                    </ul>
-                  </div>
-                  <div >
-                    <div className="text-[13px] mb-4 text-slate-400">Get Started</div>
-                    <ul className="flex flex-col items-start">
-                      <li className="mb-1 hover:underline">
-                        For Enterprises
-                      </li>
-                      <li className="mb-1 hover:underline">
-                        For Eucators
-                      </li>
-                      <li className="mb-1 hover:underline">
-                        Login
-                      </li>
-                      <li className="mb-1 hover:underline">
-                        Pricing
-                      </li>
-                      <li className="mb-1 hover:underline">
-                        DataSecurity
-                      </li>
-                      <li className="mb-1 hover:underline">
-                        Changelog
+                      <li className="text-[15px] mb-2 text-slate-400 hover:underline">
+                        <a href="/login">Login</a>
                       </li>
                     </ul>
                   </div>
-                  <div >
-                    <div className="text-[13px] mb-4 text-slate-400">Connect</div>
+                  <div className="text-left pl-5">
+                    <div className="mb-4">Company</div>
                     <ul className="flex flex-col items-start">
-                      <li className="mb-1 hover:underline">
-                        Press
+                      <li className="text-[15px] mb-2 text-slate-400 hover:underline">
+                        <a href="/privacy">Privacy Policy</a>
                       </li>
-                      <li className="mb-1 hover:underline">
-                        Twitter
+                      <li className="text-[15px] mb-2 text-slate-400 hover:underline">
+                        <a href="/terms">Terms of Service</a>
                       </li>
-                      <li className="mb-1 hover:underline">
-                        Istagram
-                      </li>
-                      <li className="mb-1 hover:underline">
-                        YouTube
-                      </li>
-                      <li className="mb-1 hover:underline">
-                        Discord
-                      </li>
-
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className="flex justify-between items-end pb-6 relative"></div>
+              <div className="border-t border-slate-700 py-6 text-left text-sm text-slate-400">
+                © {new Date().getFullYear()} Mova. All rights reserved.
+              </div>
             </div>
           </section>
         </footer>
