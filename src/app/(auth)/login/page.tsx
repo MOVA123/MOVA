@@ -54,8 +54,10 @@ export default function Page() {
                     content like never before.
                   </p>
                 </div>
+                
                 <div className="left-[20px] absolute top-[20px] text-white font-extrabold text-xl ">
-                  icons
+                  <img className="max-w-[60px]" src="/assets/icons/logo.ico"></img>
+                  MOVA
                 </div>
               </div>
               <div className="items-center flex flex-1 flex-col justify-center">
