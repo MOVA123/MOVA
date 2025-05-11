@@ -1,6 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import Swipers from "./components/swiper";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Company | Mova',
+  icons: {
+    icon: '/assets/icons/logo.ico'
+  }
+}
 export default function Page() {
   return (
     <main>
