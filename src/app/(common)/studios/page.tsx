@@ -2,6 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import Swipers from "./components/swipers";
 import StickyHead from "./components/stickyHead";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Studios | Mova',
+  icons: {
+    icon: '/assets/icons/logo.ico'
+  }
+}
 export default function Page() {
   return (
     <main>
