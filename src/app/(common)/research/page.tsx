@@ -1,6 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: 'Research | Mova',
+  icons: {
+    icon: '/assets/icons/logo.ico'
+  }
+}
 export default function Page() {
   return (
     <main>
@@ -112,15 +119,15 @@ export default function Page() {
               className="absolute top-0 left-0 w-full h-full object-cover -z-10"
               src="https://picsum.photos/1080/960"
             />
-            <div className="rw-h5">RNA Sessions</div>
-            <div className="rw-bodycopy2 text-darkGrayAlt mb-2 px-6">
+            <div className="rw-h5 text-white">RNA Sessions</div>
+            <div className="rw-bodycopy2 text-white mb-2 px-6">
               An ongoing series of talks about frontier research in{" "}
               <br className="lg:block hidden" /> AI and art, hosted by Mova.
             </div>
             <a
-              className="rw-cta-text px-4 pt-[10px] pb-[11px] rounded-full inline-flex transition-all duration-200 items-center justify-center text-offBlack border border-offBlack hover:bg-offBlack hover:text-white "
+              className="rw-cta-text px-4 pt-[10px] pb-[11px] rounded-full inline-flex transition-all duration-200 items-center justify-center text-white border border-offBlack hover:bg-offBlack hover:text-white "
               target="_self"
-              href="/research/rna-sessions"
+              href="#"
             >
               Learn more
               <svg
