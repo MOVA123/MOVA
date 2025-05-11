@@ -1,6 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: 'Product | Mova',
+  icons: {
+    icon: '/assets/icons/logo.ico'
+  }
+}
 export default function Page() {
   interface Category {
     title: string;
@@ -111,7 +118,7 @@ export default function Page() {
                     <Link
                       className="rw-cta-text px-4 pt-[10px] pb-[11px] rounded-full inline-flex transition-all duration-200 items-center justify-center bg-white text-black border border-white hover:text-darkGrayAlt hover:bg-offWhite "
                       target="_self"
-                      href="#"
+                      href="/login"
                     >
                       Try Mova Now
                       <svg
@@ -358,7 +365,7 @@ of AI models for media generation and world consistency. Illo
                 <div className="aspect-square rounded-[3px] overflow-hidden">
                   <Image
                     fill
-                    src="https://picsum.photos/800/800"
+                    src="https://picsum.photos/801/800"
                     alt=""
                     className="!static"
                   ></Image>
@@ -373,7 +380,7 @@ of AI models for media generation and world consistency. Illo
                 <div className="aspect-square rounded-[3px] overflow-hidden">
                   <Image
                     fill
-                    src="https://picsum.photos/800/800"
+                    src="https://picsum.photos/799/800"
                     alt=""
                     className="!static"
                   ></Image>
@@ -398,7 +405,7 @@ of AI models for media generation and world consistency. Illo
               </Link>
               <Link href="#" className="flex items-start">
                 <div className="aspect-square w-[87px] rounded-[3px] overflow-hidden shrink-0">
-                  <Image alt="" fill className="!static w-full h-full object-cover" src="https://picsum.photos/400/400"></Image>
+                  <Image alt="" fill className="!static w-full h-full object-cover" src="https://picsum.photos/401/400"></Image>
                 </div>
                 <div className="pl-5">
                   <div className="rw-h5 lg:mt-2.5">Custom Styles</div>
@@ -409,7 +416,7 @@ of AI models for media generation and world consistency. Illo
               </Link>
               <Link href="#" className="flex items-start">
                 <div className="aspect-square w-[87px] rounded-[3px] overflow-hidden shrink-0">
-                  <Image alt="" fill className="!static w-full h-full object-cover" src="https://picsum.photos/400/400"></Image>
+                  <Image alt="" fill className="!static w-full h-full object-cover" src="https://picsum.photos/402/400"></Image>
                 </div>
                 <div className="pl-5">
                   <div className="rw-h5 lg:mt-2.5">Image to Image</div>
