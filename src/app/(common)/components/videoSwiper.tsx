@@ -107,7 +107,7 @@ export default function VideoSwiper() {
           <Link
             className="rw-cta-text px-4 pt-[10px] pb-[11px] rounded-full inline-flex transition-all duration-200 items-center justify-center bg-white text-black border border-white hover:text-darkGrayAlt hover:bg-salute-200 "
             target="_self"
-            href="#"
+            href="/login"
           >
             Try Mova Now
             <div className="ml-2 mt-px w-5 h-5 relative">
