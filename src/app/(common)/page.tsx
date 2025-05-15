@@ -48,7 +48,7 @@ export default function Page() {
               <a
                 className="group"
                 target="_self"
-                href="/news/mova-launches-global-talent-network"
+                href="#"
               >
                 <div className="relative aspect-[1.48] w-full mb-3 rounded-[3px] overflow-hidden">
                   <Image
@@ -73,7 +73,7 @@ export default function Page() {
               <a
                 className="group"
                 target="_self"
-                href="/news/mova-partners-with-lionsgate"
+                href="#"
               >
                 <div className="relative aspect-[1.48] w-full mb-3 rounded-[3px] overflow-hidden">
                   <Image
@@ -98,7 +98,7 @@ export default function Page() {
               <a
                 className="group"
                 target="_self"
-                href="/news/mova-partners-with-tribeca-festival"
+                href="#"
               >
                 <div className="relative aspect-[1.48] w-full mb-3 rounded-[3px] overflow-hidden">
                   <Image
