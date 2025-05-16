@@ -16,7 +16,7 @@ export default function VideoSwiper() {
   }, [activeIndex]);
   const videos = [
     {
-      href: "/research/introducing-frames",
+      href: "/login",
       title: "Frames",
       source: "https://d2rbho9qhylu5v.cloudfront.net/top_2.mp4",
       subTitle: (
@@ -30,7 +30,7 @@ export default function VideoSwiper() {
     {
       source: "https://d2rbho9qhylu5v.cloudfront.net/top_1.mp4",
       title: "Gen-3 Alpha",
-      href: "/research/introducing-gen-3-alpha",
+      href: "/login",
       subTitle: (
         <div className="mt-auto ">
           A series of short films made with Gen-3, our next-generation series
