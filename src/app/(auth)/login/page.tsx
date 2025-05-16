@@ -1,5 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 export default function Page() {
   const router = useRouter()
   const getUuid = () => {
@@ -56,7 +57,7 @@ export default function Page() {
                 </div>
                 
                 <div className="left-[20px] absolute top-[20px] text-white font-extrabold text-xl ">
-                  <img className="max-w-[60px]" src="/assets/icons/logo.ico"></img>
+                  <Image className="max-w-[60px]" src="/assets/icons/logo.ico" alt="Mova Logo" width={60} height={60} />
                   MOVA
                 </div>
               </div>

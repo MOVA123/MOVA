@@ -67,7 +67,7 @@ export default function Header() {
         });
       }
     }
-  }, [pathname, baseClassName]);
+  }, [pathname, baseClassName, initClassName, buttonClassName]);
 
   useEffect(() => {
     const handleScroll = function () {

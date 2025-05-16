@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -59,14 +57,14 @@ export default function Page() {
                 We implement reasonable measures to protect your information from unauthorized access or disclosure.
               </p>
 
-              <h2 className="rw-h4 my-8">7. Children's Privacy</h2>
+              <h2 className="rw-h4 my-8">7. Children&apos;s Privacy</h2>
               <p className="rw-bodycopy2 my-3">
                 Our service is not directed to children under 13 and we do not knowingly collect their information.
               </p>
 
               <h2 className="rw-h4 my-8">8. Policy Changes</h2>
               <p className="rw-bodycopy2 my-3">
-                We may update this policy and will notify you by posting the revised version with a new "Last Updated" date.
+                We may update this policy and will notify you by posting the revised version with a new &quot;Last Updated&quot; date.
               </p>
 
               <h2 className="rw-h4 my-8">9. Contact Us</h2>
