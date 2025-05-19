@@ -5,7 +5,7 @@ import StickyHead from "./components/stickyHead";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Studios | Mova',
+  title: 'Studios | ReelMagic',
   icons: {
     icon: '/assets/icons/logo.ico'
   }
@@ -98,7 +98,7 @@ export default function Page() {
               </svg>
             </div>
             <div className="lg:w-1/2 rw-bodycopy1 mb-10 lg:mb-0">
-              Mova Studios is the production and entertainment arm of Mova.
+              ReelMagic Studios is the production and entertainment arm of ReelMagic.
               <br />
               <br />
               We work directly with filmmakers, studios, musicians, writers and independent artists
@@ -115,7 +115,7 @@ export default function Page() {
               <a className="underline" href="/studios#open-roles">
                 View Roles
               </a>{" "}
-              at Mova Studios.
+              at ReelMagic Studios.
             </div>
           </div>
         </div>

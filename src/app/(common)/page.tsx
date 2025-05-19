@@ -4,7 +4,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Mova',
+  title: 'ReelMagic',
   icons: {
     icon: '/assets/icons/logo.ico'
   }
@@ -29,7 +29,7 @@ export default function Page() {
               <br className="hidden lg:block" /> with artificial intelligence.
             </div>
             <div className="lg:w-1/2 mx-auto rw-bodycopy2 mb-5">
-              Mova is an applied research company building the next era of
+              ReelMagic is an applied research company building the next era of
               art,
               <br className="hidden lg:block" /> entertainment and human
               creativity.
@@ -59,7 +59,7 @@ export default function Page() {
                   />
                 </div>
                 <div className="rw-h5 pr-5 group-hover:opacity-70 transition-opacity duration-200 flex items-center">
-                  Mova Launches Global Talent Network
+                  ReelMagic Launches Global Talent Network
                 </div>
                 <div className="mt-1">
                   <div className="inline rw-bodycopy3 text-darkGrayAlt">
@@ -84,7 +84,7 @@ export default function Page() {
                   />
                 </div>
                 <div className="rw-h5 pr-5 group-hover:opacity-70 transition-opacity duration-200 flex items-center">
-                  Mova Partners with Lionsgate
+                  ReelMagic Partners with Lionsgate
                 </div>
                 <div className="mt-1">
                   <div className="inline rw-bodycopy3 text-darkGrayAlt">
@@ -232,7 +232,7 @@ export default function Page() {
       <section className="bg-black text-white w-full pt-20 lg:pt-32 pb-16 lg:pb-24">
         <div className="ml-auto mr-auto pl-5 pr-5 max-w-[1600px]">
           <div className="flex items-center justify-center mb-6">
-            <b>Mova</b> Studio
+            <b>ReelMagic</b> Studio
           </div>
           <div className="text-52px font-serif leading-none text-center mb-12 rw-h1">
             For anyone with <br /> a story to tell.
@@ -266,7 +266,7 @@ export default function Page() {
             </div>
           </div>
           <div className="text-center mt-10 lg:mt-20 min-large:text-[36px] text-[22px]">
-            Mova Studios is the entertainment and production arm of Mova,
+            ReelMagic Studios is the entertainment and production arm of ReelMagic,
             <br className="hidden lg:block" />
             dedicated to productin and fnding films, documentaries,
             <br className="hidden lg:block" />
@@ -277,12 +277,12 @@ export default function Page() {
               href="#"
               className="text-[16px] [@media(min-witdh:1600px)]:text-[14px] px-4 pt-[10px] pb-[11px] rounded-full inline-flex transition-all duration-200 items-center justify-center text-white border border-white hover:bg-white hover:text-black "
             >
-              Go to Mova Studios
+              Go to ReelMagic Studios
             </Link>
           </div>
           <div className="sm:w-10/12 md:w-full xl:w-14/16 mx-auto">
             <div className="mt-24 lg:mt-48 mb-4 lg:mb-8 [@media(min-witdh:1600px)]:text-[30px] [@media(min-width:768px)]:text-[24px] text-[26px]">
-              Mova Studios Initiatives
+              ReelMagic Studios Initiatives
             </div>
             <div className="grid md:grid-cols-3 w-full gap-9 md:gap-2.5">
               {[1, 2, 3].map((e) => (
@@ -314,7 +314,7 @@ export default function Page() {
             <div className="mb-5 rw-h1 font-serif">
               How the world&apos;s top creatives
               <br />
-              are using Mova.
+              are using ReelMagic.
             </div>
             <Link
               href="#"

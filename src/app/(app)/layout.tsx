@@ -2,8 +2,8 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata={
   title: {
-    default:'Dashboard | Mova',
-    template:'%s | Mova'
+    default:'Dashboard | ReelMagic',
+    template:'%s | ReelMagic'
   },
   icons: {
     icon: '/assets/icons/logo.ico'

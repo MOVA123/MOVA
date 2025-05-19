@@ -2,7 +2,7 @@ import "../globals.css"
 import type { Metadata } from "next"
 
 export const metadata: Metadata={
-  title: 'Login | Mova',
+  title: 'Login | ReelMagic',
   icons: {
     icon:'/assets/icons/logo.ico'
   }

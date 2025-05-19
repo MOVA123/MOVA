@@ -4,7 +4,7 @@ import Swipers from "./components/swiper";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Company | Mova',
+  title: 'Company | ReelMagic',
   icons: {
     icon: '/assets/icons/logo.ico'
   }
@@ -53,7 +53,7 @@ export default function Page() {
               forever change art and creativity.
               <br />
               <br />
-              Since 2018, Mova has been at the forefront of AI media ensuring
+              Since 2018, ReelMagic has been at the forefront of AI media ensuring
               that the future of content creation is accessible, controllable
               and empowering for everyone.
             </div>

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Privacy policy | Mova',
+  title: 'Privacy policy | ReelMagic',
   icons: {
     icon: '/assets/icons/logo.ico'
   }
@@ -69,7 +69,7 @@ export default function Page() {
 
               <h2 className="rw-h4 my-8">9. Contact Us</h2>
               <p className="rw-bodycopy2 my-3">
-                For questions about this policy, contact us at support@mova.com.
+                For questions about this policy, contact us at support@ReelMagic.com.
               </p>
             </div>
           </div>

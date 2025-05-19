@@ -45,7 +45,7 @@ export default function MobileNav({
       >
         <div className="flex items-center justify-between mb-6">
           <div className="text-black font-extrabold text-lg cursor-pointer">
-            <Link href="/">MOVA</Link>
+            <Link href="/">ReelMagic</Link>
           </div>
           <div className="p-3" onClick={() => onClose()}>
             <svg

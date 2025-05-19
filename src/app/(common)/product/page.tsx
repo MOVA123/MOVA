@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Product | Mova',
+  title: 'Product | ReelMagic',
   icons: {
     icon: '/assets/icons/logo.ico'
   }
@@ -120,7 +120,7 @@ export default function Page() {
                       target="_self"
                       href="/login"
                     >
-                      Try Mova Now
+                      Try ReelMagic Now
                       <svg
                         className="ml-2 mt-px"
                         width="10"
@@ -341,7 +341,7 @@ of AI models for media generation and world consistency. Illo
               target="_self"
               href="/login"
             >
-              Try Mova Now
+              Try ReelMagic Now
             </a>
           </div>
           <div className="lg:w-14/16 mx-auto">

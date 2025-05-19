@@ -57,8 +57,8 @@ export default function Page() {
                 </div>
                 
                 <div className="left-[20px] absolute top-[20px] text-white font-extrabold text-xl ">
-                  <Image className="max-w-[60px]" src="/assets/icons/logo.ico" alt="Mova Logo" width={60} height={60} />
-                  MOVA
+                  <Image className="max-w-[60px]" src="/assets/icons/logo.ico" alt="ReelMagic Logo" width={60} height={60} />
+                  ReelMagic
                 </div>
               </div>
               <div className="items-center flex flex-1 flex-col justify-center">
