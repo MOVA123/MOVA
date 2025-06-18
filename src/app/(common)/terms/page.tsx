@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Terms of service | ReelMagic',
+  title: 'Terms of service | Dollo',
   icons: {
     icon: '/assets/icons/logo.ico'
   }
@@ -23,7 +23,7 @@ export default function Page() {
 
                 <h2 className="rw-h4 my-8">2. Service Description</h2>
                 <p className="rw-bodycopy2 my-3">
-                ReelMagic provides AI-powered creative tools and services including but not limited to:
+                Dollo provides AI-powered creative tools and services including but not limited to:
                 </p>
                 <ul className="rw-bodycopy2 my-3 list-disc pl-6 space-y-2">
                 <li>Video generation and editing tools</li>
@@ -72,7 +72,7 @@ export default function Page() {
 
                 <h2 className="rw-h4 my-8">7. Intellectual Property</h2>
                 <p className="rw-bodycopy2 my-3">
-                7.1 The Service and its original content are proprietary to ReelMagic.
+                7.1 The Service and its original content are proprietary to Dollo.
                 </p>
                 <p className="rw-bodycopy2 my-3">
                 7.2 No reproduction, modification or derivative works without explicit permission.
@@ -80,7 +80,7 @@ export default function Page() {
 
                 <h2 className="rw-h4 my-8">8. Limitation of Liability</h2>
                 <p className="rw-bodycopy2 my-3">
-                ReelMagic and its affiliates shall not be liable for any indirect, incidental or consequential damages resulting from Service use.
+                Dollo and its affiliates shall not be liable for any indirect, incidental or consequential damages resulting from Service use.
                 </p>
 
                 <h2 className="rw-h4 my-8">9. Terms Modification</h2>
@@ -90,7 +90,7 @@ export default function Page() {
 
                 <h2 className="rw-h4 my-8">10. Contact Us</h2>
                 <p className="rw-bodycopy2 my-3">
-                For questions about these Terms, please contact us at support@ReelMagic.com.
+                For questions about these Terms, please contact us at support@Dollo.com.
                 </p>
             </div>
           </div>

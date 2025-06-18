@@ -109,7 +109,7 @@ export default function VideoSwiper() {
             target="_self"
             href="/login"
           >
-            Try ReelMagic Now
+            Try Dollo Now
             <div className="ml-2 mt-px w-5 h-5 relative">
               <Image src="/assets/icons/right-arrow.svg" fill alt=""></Image>
             </div>

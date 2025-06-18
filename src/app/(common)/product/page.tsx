@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Product | ReelMagic',
+  title: 'Product | Dollo',
   icons: {
     icon: '/assets/icons/logo.ico'
   }
@@ -27,7 +27,7 @@ export default function Page() {
           id: 1,
           prompt: "prompt",
           description: "Image + Cinematic handheld shot",
-          videoSrc: "https://d2rbho9qhylu5v.cloudfront.net/top_2.mp4"
+          videoSrc: "https://d2rbho9qhylu5v.cloudfront.net/top_1.mp4"
         },
         {
           id: 2,
@@ -39,7 +39,7 @@ export default function Page() {
           id: 3,
           prompt: "prompt",
           description: "Image + A silver can lays on a pink surface surroun...",
-          videoSrc: "https://d2rbho9qhylu5v.cloudfront.net/top_2.mp4"
+          videoSrc: "https://d2rbho9qhylu5v.cloudfront.net/top_3.mp4"
         }
       ]
     },
@@ -50,19 +50,19 @@ export default function Page() {
           id: 4,
           prompt: "prompt",
           description: "Driving Performance Video + Character Image",
-          videoSrc: "https://d2rbho9qhylu5v.cloudfront.net/top_2.mp4"
+          videoSrc: "https://d2rbho9qhylu5v.cloudfront.net/top_4.mp4"
         },
         {
           id: 5,
           prompt: "prompt",
           description: "Driving Performance Video + Character Image",
-          videoSrc: "https://d2rbho9qhylu5v.cloudfront.net/top_2.mp4"
+          videoSrc: "https://d2rbho9qhylu5v.cloudfront.net/top_5.mp4"
         },
         {
           id: 6,
           prompt: "prompt",
           description:"Driving Performance Video + Character Image",
-          videoSrc:"https://d2rbho9qhylu5v.cloudfront.net/top_2.mp4"
+          videoSrc:"https://d2rbho9qhylu5v.cloudfront.net/top_6.mp4"
         }
       ]
     },
@@ -73,19 +73,19 @@ export default function Page() {
           id: 7,
           prompt: "prompt",
           description: "Input Video + Various Prompts",
-          videoSrc: "https://d2rbho9qhylu5v.cloudfront.net/top_2.mp4"
+          videoSrc: "https://d2rbho9qhylu5v.cloudfront.net/top_1.mp4"
         },
         {
           id: 8,
           prompt: "prompt",
           description: "Input Video + Various Prompts",
-          videoSrc: "https://d2rbho9qhylu5v.cloudfront.net/top_2.mp4"
+          videoSrc: "https://d2rbho9qhylu5v.cloudfront.net/top_3.mp4"
         },
         {
           id: 9,
           prompt: "prompt",
           description:"Input Video + Various Prompts",
-          videoSrc:"https://d2rbho9qhylu5v.cloudfront.net/top_2.mp4"
+          videoSrc:"https://d2rbho9qhylu5v.cloudfront.net/top_4.mp4"
         }
       ]
     }
@@ -100,7 +100,7 @@ export default function Page() {
             loop
             className="absolute inset-0 object-cover w-full h-full"
           >
-            <source src="https://d2rbho9qhylu5v.cloudfront.net/bottom (1).mp4" />
+            <source src="/assets/videos/bottom (1).mp4" />
           </video>
           <div className="bg-black absolute inset-0 opacity-30"></div>
           <div className="relative text-center w-full mb-6 lg:mb-12 mt-auto"></div>
@@ -111,7 +111,7 @@ export default function Page() {
                 <div className="lg:w-2/3 mx-auto">
                   <div className="rw-bodycopy1 mb-5">
                     Fast and controllable tools that allow you to create
-                    high-fidelity content in an a way that’s never been possible
+                    high-fidelity content in an a way that's never been possible
                     before.
                   </div>
                   <div className="flex flex-col md:flex-row items-center justify-center gap-1.5">
@@ -120,7 +120,7 @@ export default function Page() {
                       target="_self"
                       href="/login"
                     >
-                      Try ReelMagic Now
+                      Try Dollo Now
                       <svg
                         className="ml-2 mt-px"
                         width="10"
@@ -234,6 +234,7 @@ export default function Page() {
                                 >
                                   <div className="aspect-[1.66] rounded-[3px] w-full mb-2.5 cursor-pointer relative group">
                                     <video
+                                      autoPlay
                                       loop
                                       muted
                                       className="w-full h-full object-cover rounded-[3px] absolute inset-0"
@@ -341,7 +342,7 @@ of AI models for media generation and world consistency. Illo
               target="_self"
               href="/login"
             >
-              Try ReelMagic Now
+              Try Dollo Now
             </a>
           </div>
           <div className="lg:w-14/16 mx-auto">

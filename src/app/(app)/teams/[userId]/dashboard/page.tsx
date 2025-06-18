@@ -154,6 +154,21 @@ export default function Page() {
                 <source src="https://d2rbho9qhylu5v.cloudfront.net/bottom (3).mp4" />
               </video>
             </div>
+            <div className="cursor-pointer relative">
+              <video controls className="w-full aspect-[16/9] rounded-[8px]">
+                <source src="https://d2rbho9qhylu5v.cloudfront.net/bottom (4).mp4" />
+              </video>
+            </div>
+            <div className="cursor-pointer relative">
+              <video controls className="w-full aspect-[16/9] rounded-[8px]">
+                <source src="https://d2rbho9qhylu5v.cloudfront.net/bottom (5).mp4" />
+              </video>
+            </div>
+            <div className="cursor-pointer relative">
+              <video controls className="w-full aspect-[16/9] rounded-[8px]">
+                <source src="https://d2rbho9qhylu5v.cloudfront.net/bottom (6).mp4" />
+              </video>
+            </div>
           </div>
         </div>
       </div>

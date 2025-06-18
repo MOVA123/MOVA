@@ -127,7 +127,7 @@ export default function Header() {
                 href="/"
               >
                 <span className="text-[2.25rem] font-black hover:text-slate-200">
-                  ReelMagic
+                  Dollo
                 </span>
               </Link>
             </div>

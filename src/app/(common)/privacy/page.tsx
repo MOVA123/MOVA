@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Privacy policy | ReelMagic',
+  title: 'Privacy policy | Dollo',
   icons: {
     icon: '/assets/icons/logo.ico'
   }
@@ -69,7 +69,7 @@ export default function Page() {
 
               <h2 className="rw-h4 my-8">9. Contact Us</h2>
               <p className="rw-bodycopy2 my-3">
-                For questions about this policy, contact us at support@ReelMagic.com.
+                For questions about this policy, contact us at support@Dollo.com.
               </p>
             </div>
           </div>

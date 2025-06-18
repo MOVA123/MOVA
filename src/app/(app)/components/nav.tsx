@@ -161,7 +161,7 @@ export default function Nav() {
                         ></rect>
                         <polyline points="17 2 12 7 7 2"></polyline>
                       </svg>
-                      ReelMagic Watch
+                      Dollo Watch
                     </Link> */}
                   </div>
                   <div className="h-[32px] flex items-center">

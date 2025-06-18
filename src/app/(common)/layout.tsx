@@ -15,17 +15,17 @@ export default function RootLayout({
         <footer>
           <section className="bg-black text-white pt-5 [@media(min-width:1600px)]:pt-28">
             <div className="ml-auto mr-auto pl-5 pr-5 max-w-[1600px]">
-              <div className="aspect-video lg:aspect-[2.36] w-full rounded-[3px] mb-16 overflow-hidden relative">
-                <video autoPlay muted loop>
-                  <source src={`https://d2rbho9qhylu5v.cloudfront.net/bottom (${Math.floor(Math.random() * 3) + 1}).mp4`}/>
+              <div className="aspect-video lg:aspect-[2.36] w-full rounded-[3px] mb-16 overflow-hidden relative flex justify-center items-center">
+                <video autoPlay muted loop className="w-full h-full object-cover">
+                  <source src={`/assets/videos/bottom (${Math.floor(Math.random() * 6) + 1}).mp4`}/>
                 </video>
                 <div className="absolute bottom-2 right-2 lg:bottom-3 lg:right-3 text-[16px] opacity-70 scale-90 lg:scale-100">
-                  Made with ReelMagic Gen-3
+                  Made with Dollo Gen-3
                 </div>
               </div>
               <div className="flex items-start justify-between static z-10">
                 <div className="flex items-center">
-                  <a href="https://x.com/_ReelMagic" target="_blank">
+                  <a href="https://x.com/_Dollo" target="_blank">
                     <svg viewBox="0 0 24 24" width="32" height="32" fill="#94A3B8">
                       <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
                     </svg>
@@ -60,7 +60,7 @@ export default function RootLayout({
                 </div>
               </div>
               <div className="border-t border-slate-700 py-6 text-left text-sm text-slate-400">
-                © {new Date().getFullYear()} ReelMagic. All rights reserved.
+                © {new Date().getFullYear()} Dollo. All rights reserved.
               </div>
             </div>
           </section>

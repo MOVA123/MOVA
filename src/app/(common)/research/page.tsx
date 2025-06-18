@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Research | ReelMagic',
+  title: 'Research | Dollo',
   icons: {
     icon: '/assets/icons/logo.ico'
   }
@@ -68,10 +68,10 @@ export default function Page() {
             <Link className="text-center text-white mt-8 block" href="#">
               <div className="rw-eyebrow mb-2.5">FEATURED</div>
               <div className="rw-h3 mb-2.5 lg:w-3/4 mx-auto">
-                Introducing ReelMagic Gen-3 <br className="hidden lg:block" />
+                Introducing Dollo Gen-3 <br className="hidden lg:block" />
               </div>
               <div className="rw-bodycopy3 text-mediumGray opacity-60">
-                ReelMagic Research / March 31st, 2025
+                Dollo Research / March 31st, 2025
               </div>
             </Link>
           </div>
@@ -122,7 +122,7 @@ export default function Page() {
             <div className="rw-h5 text-white">RNA Sessions</div>
             <div className="rw-bodycopy2 text-white mb-2 px-6">
               An ongoing series of talks about frontier research in{" "}
-              <br className="lg:block hidden" /> AI and art, hosted by ReelMagic.
+              <br className="lg:block hidden" /> AI and art, hosted by Dollo.
             </div>
             <a
               className="rw-cta-text px-4 pt-[10px] pb-[11px] rounded-full inline-flex transition-all duration-200 items-center justify-center text-white border border-offBlack hover:bg-offBlack hover:text-white "
@@ -193,8 +193,8 @@ export default function Page() {
             <div className="rw-h4 mb-5">Discover more</div>
             <div className="grid lg:grid-cols-3 w-full gap-9 lg:gap-2.5">
             {[
-                {id: 1, title: "ReelMagic Partners with Lionsgate"},
-                {id: 2, title: "Exploring the Future of Filmmaking: ReelMagic’s programming partnership with Tribeca Festival 2024"},
+                {id: 1, title: "Dollo Partners with Lionsgate"},
+                {id: 2, title: "Exploring the Future of Filmmaking: Dollo’s programming partnership with Tribeca Festival 2024"},
                 {id: 3, title: "Partnering with Media.Monks to expand creative horizons"}
               ].map((item) => (
                 <Link href="#" target="_self" key={item.id}>
