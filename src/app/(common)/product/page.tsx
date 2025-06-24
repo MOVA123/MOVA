@@ -111,7 +111,7 @@ export default function Page() {
                 <div className="lg:w-2/3 mx-auto">
                   <div className="rw-bodycopy1 mb-5">
                     Fast and controllable tools that allow you to create
-                    high-fidelity content in an a way that's never been possible
+                    high-fidelity content in an a way that&apos;s never been possible
                     before.
                   </div>
                   <div className="flex flex-col md:flex-row items-center justify-center gap-1.5">
